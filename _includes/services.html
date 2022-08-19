@@ -1,59 +1,48 @@
-<!-- Services -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
-  <section class="page-section" id="{{ site.data.sitetext[site.locale].services.section | default: "services" }}">
-    <div class="container">
-	
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].services.title | default: "Services" }}</h2>
-          {% if site.data.sitetext[site.locale].services.text %}
-		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].services.text }}</h3>
-		  {% endif %}
-        </div>
-      </div>
-	  
-      <div class="row text-center">
-	  {% for service in site.data.sitetext[site.locale].services.list %}
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
-        </div>
-	  {% endfor %}
-      </div>
-	  
-    </div>
-  </section>
-{% else %}
-<section class="page-section" id="{{ site.data.sitetext.services.section | default: "services" }}">
-  <div class="container">
+<!-- Services Section -->
+    <section id="services" class="bg-darkest-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">
+                            Services
+                          </h2>
+                    <h3 class="section-subheading text-muted">
+                      D.O.T. #: 3807200
+                      <br>
+                      MC #: 1372535
+                      <br>
+                      Insured
+                    </h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-truck fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Suzi CFO services</h4>
+                    <p class="text-muted">Suzi CFO is here to save the day 
+                        by helping you get a grasp on your financials so that you can focus on growing your business.
 
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.services.title | default: "Services" }}</h2>
-        {% if site.data.sitetext.services.text %}
-    <h3 class="section-subheading text-muted">{{ site.data.sitetext.services.text }}</h3>
-    {% endif %}
-      </div>
-    </div>
-  
-    <div class="row text-center">
-  {% for service in site.data.sitetext.services.list %}
-      <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fas fa-circle fa-stack-2x text-primary"></i>
-          <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-        {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
-      </div>
-  {% endfor %}
-    </div>
-  
-  </div>
-</section>
-{% endif %}
-<!-- End Services -->
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-road fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Financial Services</h4>
+                    <p class="text-muted">Suzi CFO has helped organizations for over 15 years.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Training</h4>
+                    <p class="text-muted">Does your team need direct training?</p>
+                </div>
+            </div>
+        </div>
+    </section>
