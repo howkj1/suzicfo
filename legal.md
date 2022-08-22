@@ -8,6 +8,8 @@ background: grey
 	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
 </div>
 
+
+
 This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
 
 **PERSONAL INFORMATION WE COLLECT**
@@ -37,3 +39,6 @@ We may update this privacy policy from time to time for personal, operational, l
 **CONTACT US**
 
 For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+
+
+<a href="{{site.url}}">Return To >> {{site.title}} << </a>

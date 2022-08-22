@@ -62,7 +62,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #f0c798;
 }
 
 .bg-darkest-gray {
@@ -121,7 +121,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     padding: 20px 40px;
     border-color: #{{ site.data.template.color.primary }};
-    border-radius: 3px;
+    border-radius: 50px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
@@ -140,7 +140,7 @@ fieldset[disabled] .btn-primary.active {
     color: #fff;
     background-image: none;
     background:
-            -webkit-linear-gradient( #000, #333);
+            -webkit-linear-gradient( #0aa307, #333);
 }
 
 .btn-xl:active,
@@ -260,7 +260,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: rgba(34, 34, 34, 0.95);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -296,7 +296,6 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 20px;
     font-weight: 700;
@@ -319,11 +318,12 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        /* text-transform: uppercase; */
+        font-family: {{ site.data.template.font.secondary }};
+        font-style: italic;
+        font-size: 40px;
+        /* font-weight: 700; */
+        line-height: 40px;
     }
 }
 
@@ -336,7 +336,7 @@ section h2.section-heading {
     margin-bottom: 15px;
     font-size: 40px;
     background:
-            -webkit-linear-gradient( #ffffff, #00b3ff);
+            -webkit-linear-gradient( #0a690a, #4ff14f);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             filter: drop-shadow(1px 1px 2px black)"
@@ -383,7 +383,7 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .6);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -398,7 +398,7 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #f3e6d8;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -415,7 +415,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: #f3e6d8;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -873,3 +873,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
