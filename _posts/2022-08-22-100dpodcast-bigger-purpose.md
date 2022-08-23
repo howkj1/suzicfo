@@ -2,6 +2,7 @@
 title: PODCAST - "Connecting Your Work to a Bigger Purpose"
 subtitle: Connecting Your Work to a Bigger Purpose with Suzi Howk 100 Degrees of Entrepreneurship
 layout: default
+modal-id: 3
 date: 2022-08-22 08:00
 thumbnail: https://is3-ssl.mzstatic.com/image/thumb/Podcasts122/v4/4c/75/b8/4c75b8ee-5f9e-4ab6-24f7-7eb1cb9c3c08/mza_10269245699341273538.jpg/268x0w.jpg
 description: Suzi CFO guest hosts on the 100 Degrees Entrepreneurship podcast with host Stephanie Skryzowski 

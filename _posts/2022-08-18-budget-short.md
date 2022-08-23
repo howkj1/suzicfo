@@ -2,6 +2,7 @@
 title: "Make Your Money Work For You!"
 subtitle: Make a plan for the next month to tell your money what you want it to do and where you want it to go. This plan is called a "budget". 
 layout: default
+modal-id: 2
 date: 2022-08-18 13:43
 thumbnail: http://img.youtube.com/vi/EHyx6ycr1Yc/0.jpg
 project-date: 
