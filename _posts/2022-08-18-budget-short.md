@@ -12,6 +12,8 @@ tags: [Suzi CFO,CFO,finance,budget,plan,money,cfo,planning,lists,organization,au
 
 Make Your Money Work For You!
 
+[https://www.youtube.com/watch?v=EHyx6ycr1Yc](https://www.youtube.com/watch?v=EHyx6ycr1Yc)
+
 Make a plan for the next month to tell your money what you want it to do and where you want it to go. This plan is called a "budget". 
 
 Just like how a work-order tells people what to spend their time doing on the job, a budget tells your money what to be spent on (or saved for) during the next month. 
@@ -25,7 +27,7 @@ This channel does not provide legal advice nor investing advice. Any anecdotes a
 
 #shorts #shortsvideo 
 
-[https://studio.youtube.com/video/EHyx6ycr1Yc](https://studio.youtube.com/video/EHyx6ycr1Yc)
+[https://www.youtube.com/watch?v=EHyx6ycr1Yc](https://www.youtube.com/watch?v=EHyx6ycr1Yc)
 
 <!-- 
 img: http://img.youtube.com/vi/EHyx6ycr1Yc/0.jpg
