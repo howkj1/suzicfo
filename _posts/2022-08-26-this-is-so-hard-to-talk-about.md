@@ -5,14 +5,14 @@ layout: default
 modal-id: 4
 date: 2022-08-26 01:50
 thumbnail: http://img.youtube.com/vi/k29W5kH4faU/0.jpg
-description: <iframe width="560" height="315" src="https://youtu.be/k29W5kH4faU" frameborder="0" allowfullscreen></iframe> 
+description: <iframe width="560" height="315" src="https://www.youtube.com/embed/k29W5kH4faU" frameborder="0" allowfullscreen></iframe> 
 tags: [Suzi CFO,CFO,finance,budget,plan,money,cfo,planning,automation,accounting,remote,remote work,work from home,wealth,debt,shorts,will,death,funeral,expenses,generational,transfer] 
 ---
 
 As seen first on https://suzicfo.com
 Everyone needs a will!
 
-[https://youtu.be/k29W5kH4faU](https://youtu.be/k29W5kH4faU)
+[https://www.youtube.com/watch?v=k29W5kH4faU](https://www.youtube.com/watch?v=k29W5kH4faU)
 
 Get a notarized will to ensure your final wishes are honored. 
 
@@ -28,7 +28,7 @@ This channel does not provide legal advice nor investing advice. Any anecdotes a
 
 #shorts #shortsvideo
 
-[https://youtu.be/k29W5kH4faU](https://youtu.be/k29W5kH4faU)
+[https://www.youtube.com/watch?v=k29W5kH4faU](https://www.youtube.com/watch?v=k29W5kH4faU)
 
 <!-- 
 img: http://img.youtube.com/vi/k29W5kH4faU/0.jpg
