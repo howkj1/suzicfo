@@ -1,6 +1,6 @@
 ---
 title: "This is so hard to talk about."
-subtitle: Everyone needs a will.
+subtitle: Everyone needs a will!
 layout: default
 modal-id: 4
 date: 2022-08-26 01:50
