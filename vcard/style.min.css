@@ -126,6 +126,7 @@ header {
 #logo {
     max-height: 15rem;
     height: 15;
+    border-radius: 20px;
     pointer-events: none;
     -webkit-user-select: none;
     -moz-user-select: none;
