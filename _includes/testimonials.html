@@ -1,0 +1,103 @@
+<section id="testimonials" style="background-color: #bdbdbd;">
+<div>
+    <title>Testimonial Slider</title>
+
+    <div class="testimonial-container">
+        <div class="testimonial-slider section-subheading text-muted">
+            
+            <div class="testimonial">
+                <p>"Huge thanks to Suzi 
+                    for quickly reviewing a time sensitive 990 with a lot of weirdness."</p>
+                <p1>- Danie</p1>
+            </div>
+                        
+            <div class="testimonial">
+                <p>"Shout out to Suzi for helping me
+                     with something I've never encountered before
+                      and offering a PERFECT solution!"</p>
+                <p1>- Lisa</p1>
+            </div>
+            
+            <div class="testimonial">
+                <p>"Thanks for providing some advice on two separate situations. 
+                    Always appreciate having you as a thought partner!"</p>
+                <p1>- Greg</p1>
+            </div>
+                        
+            <div class="testimonial">
+                <p>"Thanks Suzi for being so responsive and helpful with guiding the bookkeepers on our team!"</p>
+                <p1>- Alyssa</p1>
+            </div>
+            
+            <div class="testimonial">
+                <p>"Thanks for your great work on a Chart Of Accounts rebuild!"</p>
+                <p1>- Lisa</p1>
+            </div>
+
+            <div class="testimonial">
+                <p>"Thanks for Suzi for her amazing heart and out-of-the-way kindness!"</p>
+                <p1>- Katie</p1>
+            </div>
+
+            <div class="testimonial">
+                <p>"Thank you to Suzi for her quick turnaround on a 990 review!"</p>
+                <p1>- Danie</p1>
+            </div>
+
+            <div class="testimonial">
+                <p>"Thank you for helping me get logged into the 990-N IRS site. You rock!"</p>
+                <p1>- Greg</p1>
+            </div>
+
+            <div class="testimonial">
+            <p>"Thank you for always recognizing and appreciating the work I do, 
+                no matter how small it may seem. 
+                It truly warms my heart to know that the support I provide is valued."</p>
+                <p1>- Kath</p1>
+            </div>
+            
+            <div class="testimonial">
+                <p>"Thank you for being amazing!"</p>
+                <p1>- Adriana</p1>
+            </div>
+
+            <div class="testimonial">
+                <p>"I am so grateful for the support you've provided us!"</p>
+                <p1>- Sarah</p1>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+    const slider = document.querySelector('.testimonial-slider');
+    let currentSlide = 0;
+    
+    function nextSlide() {
+        currentSlide++;
+        if (currentSlide >= slider.children.length) {
+        currentSlide = 0;
+        }
+        updateSlider();
+    }
+
+    function prevSlide() {
+        currentSlide--;
+        if (currentSlide < 0) {
+        currentSlide = slider.children.length - 1;
+        }
+        updateSlider();
+    }
+
+    function updateSlider() {
+        const slideWidth = slider.children[0].offsetWidth;
+        slider.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
+    }
+
+    // Auto-advance every 5 seconds
+    setInterval(nextSlide, 5000);
+    </script>
+
+</div>
+</section>

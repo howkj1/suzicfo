@@ -874,3 +874,41 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
+
+.testimonial-container {
+    width: 100%;
+    overflow: hidden;
+}
+.testimonial-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    white-space:
+}
+
+.testimonial {
+    /* background: -webkit-linear-gradient( #f7f7f7, #456e43); */
+    background: -webkit-linear-gradient( #f7f7f7, #a3a3a3);
+    border-radius: 10px; 
+    margin-right: 10px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    min-width: 400px;
+}
+
+.testimonial p {
+    color: rgb(58, 57, 57);
+    /* filter: drop-shadow(1px 1px 2px black); */
+}
+
+.testimonial p1 {
+    font-size: 20px;
+    color: #038334;
+    filter: drop-shadow(2px 2px 1px #ffffff);
+
+    /* background:
+            -webkit-linear-gradient(#f39d63 25%, #d1a11d 50%, #d18d0f 75%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(2px 2px 3px black)"; */
+}
